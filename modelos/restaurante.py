@@ -76,5 +76,5 @@ class Restaurante:
                 mensagem_prato = f'{i}. nome: {item._nome} | Preço R$ {item._preco} | Descrição: {item.descricao}'
                 print(mensagem_prato)
             else:
-                mensagem_bebida = f'{i}. nome: {item._nome} | Preço R$ {item._preco} | Descrição: {item.descricao}'
+                mensagem_bebida = f'{i}. nome: {item._nome} | Preço R$ {item._preco} | Tamanho: {item.tamanho}'
             print(mensagem_bebida)
